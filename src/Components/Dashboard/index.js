@@ -4,6 +4,7 @@ import Review from "./partial/review";
 import Payment from "./partial/payment";
 import Detail from "./partial/detail";
 import Instructor from "./partial/instructor";
+import Overview from "./partial/overview";
 
 const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
@@ -86,7 +87,7 @@ const Tabs = ({ color }) => {
                   setOpenTab(4);
                 }}
                 data-toggle="tab"
-                href="#link3"
+                href="#link4"
                 role="tablist"
               >
                  Board
@@ -111,13 +112,24 @@ const Tabs = ({ color }) => {
 
 export default function TabsRender() {
   return (
-        <div className="sm:mx-3 flex flex-col xl:flex-row">
-                <div className="w-full px-5">
-                    <Tabs color="pink" />
+      <div className="shadow-sm max-w-screen-xxl mx-auto">
+        <div class="flex min-h-screen flex-1">
+            <main className="min-h-screen flex flex-col w-full bg">
+                <div className="sm:mx-3 flex flex-col xl:flex-row p-3">
+                    <div className="w-full p-5">
+                        <Overview color="pink" />
+                    </div>
                 </div>
-                <div className="w-full xl:w-1/3 px-3 sm:mx-2">
-                    <Instructor></Instructor>
+                <div className="sm:mx-3 flex flex-col xl:flex-row p-3">
+                    <div className="w-full xl:w-2/3 sm:mx-2 p-5">
+                        <Tabs color="pink" />
+                    </div>
+                    <div className="w-full xl:w-1/3 sm:mx-2 p-5">
+                        <Instructor/>
+                    </div>
                 </div>
+            </main>
         </div>
+      </div>
   );
 }
