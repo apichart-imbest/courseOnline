@@ -4,30 +4,28 @@ class Overview extends React.Component {
     render() {
         return (
             <div className="flex flex-warp">
-                <div className="flex flex-col lg:flex-row w-full">
-                    <div className="w-full lg:w-2/4">
-                        <div className="">
-                            <p>
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which don't
-                                look
-                                even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
-                                be
-                                sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                generators on the Internet tend to repeat predefined chunks as necessary, making this
-                                the
-                                first true generator on the Internet. It uses a dictionary of over 200 Latin words,
-                                combined
-                                with a handful of model sentence structures, to generate Lorem Ipsum which looks
-                                reasonable.
-                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-                                non-characteristic words etc.
-                            </p>
-                        </div>
+                <div className="flex flex-col lg:flex-row w-full p-5">
+                    <div className="w-full lg:w-2/5 sm:mx-2 p-5">
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't
+                            look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+                            be
+                            sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined chunks as necessary, making this
+                            the
+                            first true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                            combined
+                            with a handful of model sentence structures, to generate Lorem Ipsum which looks
+                            reasonable.
+                            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                            non-characteristic words etc.
+                        </p>
                     </div>
-                    <div className="w-full lg:w-1/4">
+                    <div className="flex sm:mx-2 p-5 justify-center lg:justify-end">
                         <div
-                            className="border-2 border-gray-300 w-4/5 lg:w-custom mb-10 lg:px-4 px-6 py-10 text-center text-gray-500 rounded-lg">
+                            className="border-2 border-gray-300 w-4/5 mb-10 lg:px-4 px-6 py-10 p-10 text-center text-gray-500 rounded-lg">
                             <div
                                 className="pb-4 flex justify-center font-bold">
                                 <span className="text-3xl"> 199.99 บาท</span>
@@ -55,9 +53,9 @@ class Overview extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/4">
+                    <div className="flex sm:mx-2 p-5 justify-center">
                         <div
-                            className="border-2 border-gray-300 w-4/5 lg:w-custom mb-10 lg:px-4 px-6 py-10 text-center text-gray-500 rounded-lg">
+                            className="border-2 border-gray-300 w-4/5 mb-10 lg:px-4 px-6 py-10 text-center text-gray-500 rounded-lg">
                             <div
                                 className="pb-4 flex justify-center font-bold">
                                 <span className="text-3xl"> 199.99 บาท</span>

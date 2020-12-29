@@ -11,7 +11,7 @@ class Instructor extends React.Component {
                     >
                         <li className="-mb-px last:mr-0 flex-auto text-left">
                             <a
-                                className="text-gray-600 p-4 block hover:bg-gray-100 focus:outline-none border-b-4 font-medium  border-blue-500"
+                                className="text-gray-600 p-4 block focus:outline-none border-b-4 font-medium  border-blue-500"
                             >
                                 Instructor
                             </a>
