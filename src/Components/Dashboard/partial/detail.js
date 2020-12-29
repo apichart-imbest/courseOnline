@@ -1,4 +1,11 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {fas} from "@fortawesome/free-solid-svg-icons";
+import {far} from "@fortawesome/free-regular-svg-icons";
+
+library.add(fas);
+library.add(far);
 
 class Detail extends React.Component {
     render() {
@@ -39,26 +46,21 @@ class Detail extends React.Component {
                                         Overview
                                     </p>
                                 </div>
-                                <div className="flex w-full justify-between text-base">
-                                    <p className="mx-2">
-                                        Introduce
-                                    </p>
-                                    <p className="mx-2">
-                                        1:20
-                                    </p>
-                                </div>
-                                <div className="bg-gray-500 text-white">
-                                    <p className="mx-2">
-                                        Overview
-                                    </p>
-                                </div>
-                                <div className="flex w-full justify-between text-base">
-                                    <p className="mx-2">
-                                        Introduce
-                                    </p>
-                                    <p className="mx-2">
-                                        1:20
-                                    </p>
+                                <div className="flex flex-col w-full text-base">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
+                                        <p className="mx-2">
+                                            Introduce
+                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="bg-gray-500 text-white">
                                     <p className="mx-2">
@@ -66,45 +68,110 @@ class Detail extends React.Component {
                                     </p>
                                 </div>
                                 <div className="flex flex-col w-full text-base">
-                                    <div className="flex w-full justify-between">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
                                             Introduce
                                         </p>
-                                        <p className="mx-2">
-                                            1:20
-                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="flex w-full justify-between">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
                                             Introduce
                                         </p>
-                                        <p className="mx-2">
-                                            1:20
-                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="flex w-full justify-between">
+                                </div>
+                                <div className="bg-gray-500 text-white">
+                                    <p className="mx-2">
+                                        Overview
+                                    </p>
+                                </div>
+                                <div className="flex flex-col w-full text-base">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
                                             Introduce
                                         </p>
-                                        <p className="mx-2">
-                                            1:20
-                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="flex w-full justify-between">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
                                             Introduce
                                         </p>
-                                        <p className="mx-2">
-                                            1:20
-                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="flex w-full justify-between">
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
                                             Introduce
                                         </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
                                         <p className="mx-2">
-                                            1:20
+                                            Introduce
                                         </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="flex w-full justify-between p-2 cursor-pointer hover:text-black text-gray-700">
+                                        <p className="mx-2">
+                                            Introduce
+                                        </p>
+                                        <div className="flex flex-row">
+                                            <button className="">
+                                                <FontAwesomeIcon icon={['far', 'play-circle']}/>
+                                            </button>
+                                            <p className="mx-2">
+                                                1:20
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../../45949458_2309956945744543_1954282554303447040_o.jpg"
 
 class Instructor extends React.Component {
     render() {
@@ -13,30 +14,23 @@ class Instructor extends React.Component {
                             <a
                                 className="text-gray-600 p-4 block focus:outline-none border-b-4 font-medium"
                             >
-                                ผู้สอน
+                                ผู้สมัคร
                             </a>
                         </li>
                     </ul>
                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                        <div className="px-4 py-5 flex-auto">
-                            <div className="tab-content tab-space">
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the majority
-                                    have suffered
-                                    alteration in some form, by injected humour, or randomised words which don't look
-                                    even slightly
-                                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-                                    there isn't
-                                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
-                                    on the
-                                    Internet tend to repeat predefined chunks as necessary, making this the first true
-                                    generator on
-                                    the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-                                    of model
-                                    sentence structures, to generate Lorem Ipsum which looks reasonable. The generated
-                                    Lorem Ipsum
-                                    is therefore always free from repetition, injected humour, or non-characteristic
-                                    words etc.
+                        <div className="px-2 py-5 flex-auto">
+                            <div className="flex flex-row tab-content tab-space">
+                                <div className="w-full">
+                                    <img src={logo} alt=""/>
+                                </div>
+                            </div>
+                            <div className="flex flex-row justify-between">
+                                <p className="w-full text-sm">
+                                    อภิชาติ พิมมานนท์
+                                </p>
+                                <p className="w-full text-sm">
+                                    Software Engineer
                                 </p>
                             </div>
                         </div>
