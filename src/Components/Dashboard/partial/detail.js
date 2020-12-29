@@ -7,7 +7,6 @@ class Detail extends React.Component {
                 <div className="flex flex-col">
                     <div className="w-full">
                         <div className="flex">
-                                {this.state.longText}
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered
