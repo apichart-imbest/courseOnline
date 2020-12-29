@@ -45,7 +45,7 @@ export default class Index extends React.Component {
                                                             className={
                                                                 "text-gray-600 py-4 px-6 block hover:bg-gray-100 focus:outline-none border-b-4 font-medium" +
                                                                 (this.state.openTab === 1
-                                                                    ? " border-blue-500"
+                                                                    ? " border-green-500"
                                                                     : "")
                                                             }
                                                             onClick={e => {
@@ -56,7 +56,7 @@ export default class Index extends React.Component {
                                                             href="#link1"
                                                             role="tablist"
                                                         >
-                                                            Detail
+                                                            รายละเอียด
                                                         </a>
                                                     </li>
                                                     <li className="-mb-px last:mr-0 flex-auto">
@@ -64,7 +64,7 @@ export default class Index extends React.Component {
                                                             className={
                                                                 "text-gray-600 py-4 px-6 block hover:bg-gray-100 focus:outline-none border-b-4 font-medium" +
                                                                 (this.state.openTab === 2
-                                                                    ? " border-blue-500"
+                                                                    ? " border-green-500"
                                                                     : "")
                                                             }
                                                             onClick={e => {
@@ -75,7 +75,7 @@ export default class Index extends React.Component {
                                                             href="#link2"
                                                             role="tablist"
                                                         >
-                                                            Payment
+                                                            วิธีชำระเงิน
                                                         </a>
                                                     </li>
                                                     <li className="-mb-px last:mr-0 flex-auto">
@@ -83,7 +83,7 @@ export default class Index extends React.Component {
                                                             className={
                                                                 "text-gray-600 py-4 px-6 block hover:bg-gray-100 focus:outline-none border-b-4 font-medium" +
                                                                 (this.state.openTab === 3
-                                                                    ? " border-blue-500"
+                                                                    ? " border-green-500"
                                                                     : "")
                                                             }
                                                             onClick={e => {
@@ -94,7 +94,7 @@ export default class Index extends React.Component {
                                                             href="#link3"
                                                             role="tablist"
                                                         >
-                                                            Review
+                                                            รีวิว
                                                         </a>
                                                     </li>
                                                     <li className="-mb-px last:mr-0 flex-auto invisible md:visible">
@@ -102,7 +102,7 @@ export default class Index extends React.Component {
                                                             className={
                                                                 "text-gray-600 py-4 px-6 block hover:bg-gray-100 focus:outline-none border-b-4 font-medium" +
                                                                 (this.state.openTab === 4
-                                                                    ? " border-blue-500"
+                                                                    ? " border-green-500"
                                                                     : "")
                                                             }
                                                             onClick={e => {
@@ -113,7 +113,7 @@ export default class Index extends React.Component {
                                                             href="#link4"
                                                             role="tablist"
                                                         >
-                                                            Board
+                                                            ห้องสนทนา
                                                         </a>
                                                     </li>
                                                 </ul>
